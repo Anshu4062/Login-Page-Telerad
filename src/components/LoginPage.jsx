@@ -289,7 +289,7 @@ const LoginPage = () => {
           className="absolute inset-0 w-full h-full object-cover opacity-90"
         />
 
-        {/* Central Logo (no overlay circle, logo comes from background image) */}
+        {/* Central Logo no overlay circle, logo comes from background image */}
         <div 
           ref={logoRef}
           className="relative z-10"
