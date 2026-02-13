@@ -335,7 +335,7 @@ const LoginPage = () => {
             <div>
               <label 
                 htmlFor="username" 
-                className="block text-sm font-normal mb-2"
+                className="block text-lg font-normal mb-2"
                 style={{ color: '#FFFFFF', fontFamily: 'Poppins, sans-serif' }}
               >
                 Username
@@ -369,7 +369,7 @@ const LoginPage = () => {
             <div>
               <label 
                 htmlFor="password" 
-                className="block text-sm font-normal mb-2"
+                className="block text-lg font-normal mb-2"
                 style={{ color: '#FFFFFF', fontFamily: 'Poppins, sans-serif' }}
               >
                 Password
@@ -465,7 +465,7 @@ const LoginPage = () => {
             <button
               ref={buttonRef}
               type="submit"
-              className="w-full py-3 px-6 border-2 rounded-full font-normal focus:outline-none relative overflow-hidden cursor-pointer"
+              className="w-full py-3 px-6 border-2 rounded-full font-normal text-lg focus:outline-none relative overflow-hidden cursor-pointer"
               style={{ 
                 borderColor: '#FFFFFF', 
                 backgroundColor: 'transparent',
