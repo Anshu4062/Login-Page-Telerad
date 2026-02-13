@@ -115,7 +115,7 @@ const LoginPage = () => {
         tl.to(
           buttonTextRef.current,
           {
-            color: '#4B7AE7',
+            color: '#007BFF',
             duration: 0.4,
             ease: 'power2.out'
           },
@@ -279,14 +279,14 @@ const LoginPage = () => {
       <div 
         className="relative w-2/3 h-full flex items-center justify-center overflow-hidden"
         style={{
-          backgroundColor: '#4B7AE7'
+          backgroundColor: '#007BFF'
         }}
       >
         {/* RadShare image with 70% opacity */}
         <img
           src={backgroundImage}
           alt="RadShare background"
-          className="absolute inset-0 w-full h-full object-cover opacity-90"
+          className="absolute inset-0 w-full h-full object-cover opacity-80"
         />
 
         {/* Central Logo no overlay circle, logo comes from background image */}
@@ -302,7 +302,7 @@ const LoginPage = () => {
         className="w-1/3 h-full flex flex-col justify-center relative z-10" 
         style={{ 
           opacity: '1 !important', 
-          backgroundColor: '#4B7AE7', 
+          backgroundColor: '#007BFF', 
           paddingLeft: '2rem', 
           paddingRight: '2rem', 
           display: 'flex', 
@@ -310,7 +310,7 @@ const LoginPage = () => {
           minWidth: '33.333333%'
         }}
       >
-        {/* Doctors circular background image (37% visible, large like Figma) */}
+        {/* Doctors circular background image (disabled per request)
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
           <div
             className="rounded-full overflow-hidden"
@@ -327,6 +327,7 @@ const LoginPage = () => {
             />
           </div>
         </div>
+        */}
 
         <div className="w-full max-w-sm" style={{ marginLeft: 'auto', marginRight: 'auto', position: 'relative' }}>
           <form onSubmit={handleSubmit} className="space-y-6" style={{ position: 'relative' }}>
