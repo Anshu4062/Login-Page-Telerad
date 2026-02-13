@@ -289,15 +289,11 @@ const LoginPage = () => {
           className="absolute inset-0 w-full h-full object-cover opacity-90"
         />
 
-        {/* Central Logo */}
+        {/* Central Logo (no overlay circle, logo comes from background image) */}
         <div 
           ref={logoRef}
-          className="relative z-10 flex items-center gap-4"
-        >
-          <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center">
-            
-          </div>
-        </div>
+          className="relative z-10"
+        />
       </div>
 
       {/* Right Side - Login Form */}
